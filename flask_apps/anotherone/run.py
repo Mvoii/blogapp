@@ -1,5 +1,6 @@
-from flask_blog import app
-from flask_blog.models import db
+from flask_blog import create_app
+
+app = create_app()
 
 if __name__ == "__main__":
     # with app.app_context():
